@@ -147,25 +147,39 @@ When the device powers on or resets, a loading animation is displayed on the LCD
 This provides visual feedback and improves user experience.
 
 ```cpp
-void system_config(){
-  display(F("System Init"));
-  lcd.setCursor(0, 1);
-  lcd.print(F("Press 0 to skip"));
-
-  if (loading_animation(11, 0)) {
-    return; // Allows skipping with keypad
+//---Loading Animation Screen---
+  bool loading_animation(unsigned char col, unsigned char row) {
+    unsigned long last_check = 0;
+    unsigned char case_number = 0; 
+    unsigned char cycle = 0;   
+    while (cycle < 3) {
+      unsigned long now = millis();
+      if (now - last_check >= interval){
+        last_check = now;
+        lcd.setCursor(col, row);      
+        switch (case_number) {
+          case 0:
+            lcd.print("."); break;
+          case 1:
+            lcd.print(".."); break;
+          case 2:
+            lcd.print("..."); break;
+          case 3:
+            lcd.print("   "); break;
+        }
+        case_number++;
+        if (case_number >=4) {
+          cycle++;
+          case_number = 0;
+        }
+      }
+      if (escape_key_normal()) {
+        return true;
+      }
+      delay(10);  
+    }
+    return false;
   }
-  lcd.clear();
-
-  // RTC Initialization also includes animation
-  display(F("RTC Init"));
-  lcd.setCursor(0, 1);
-  lcd.print(F("Press 0 to skip"));
-  if (loading_animation(8, 0)) {
-    return;
-  }
-  lcd.clear();
-}
 ```
 
 ## Expected Behavior
