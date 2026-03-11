@@ -1,6 +1,6 @@
 # Embedded Systems Projects Portfolio
 
-A comprehensive collection of embedded systems projects demonstrating proficiency in microcontroller programming, sensor integration, communication protocols, and embedded systems design.
+A comprehensive collection of embedded systems projects demonstrating capability in microcontroller programming, sensor integration, communication protocols, and embedded systems design.
 
 ## 🎯 Overview
 
@@ -8,9 +8,9 @@ This portfolio showcases hands-on experience with:
 - **Microcontroller Programming** (C++ for embedded systems)
 - **Sensor Integration** (ultrasonic, IR, temperature/humidity)
 - **Display Technologies** (LCD, seven-segment displays)
-- **Communication Protocols** (I2C)
-- **Data Acquisition & Logging**
-- **Hardware-Software Integration**
+- **Communication Protocols** (I2C and SPI)
+- **Data Acquisition & Logging** (SD card module and RTC (Real Time Clock) module)
+- **Hardware-Software Integration** (COmbination of 5+ components to form a real word production level system)
 
 ## 📁 Project Categories
 
@@ -54,18 +54,17 @@ Final integrated project combining multiple concepts.
 
 ## 📊 Key Competencies Demonstrated
 
-- ✅ GPIO control and peripheral interfacing
-- ✅ Analog-to-digital conversion (ADC)
-- ✅ I2C and serial communication protocols
-- ✅ Sensor driver implementation
-- ✅ Real-time data processing
-- ✅ Embedded algorithm optimization
-- ✅ Hardware debugging and troubleshooting
+- GPIO control and peripheral interfacing
+- Analog-to-digital conversion (ADC)
+- I2C and serial communication protocols
+- Sensor driver implementation
+- Real-time data processing
+- Embedded algorithm optimization
+- Hardware debugging and troubleshooting
 
 ## 🔗 Circuit Simulations
 
 All projects include circuit simulations available on Wokwi:
-- [View all simulations on Wokwi](https://wokwi.com/[your-profile])
 
 *[Individual links per project in their respective README files]*
 
