@@ -35,7 +35,10 @@ This is a fundamental GPIO project that demonstrates basic LED control through d
 
 ### Circuit Diagram
 
-
+<div align="center">
+  <img src="./.assests/Screenshot%20From%202026-03-11%2017-18-21.png" alt="LED and I-O Simulation" width="300">
+  <p><i>Figure 1: Wokwi Simulation of the Basic I/O Logic</i></p>
+</div>
 
 ## 📝 Key Code Functions
 
