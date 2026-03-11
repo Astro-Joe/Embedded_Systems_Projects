@@ -115,7 +115,7 @@ void option_menu() {
 }
 ```
 
-### Example: Proximity Handling
+### Proximity Handling
 
 ```cpp
 void loop() {
@@ -132,6 +132,31 @@ void loop() {
     else if (key == '2') loginInput("Enter your PIN: ");
     else option_menu();
   }
+}
+```
+### System Initialization Animation
+When the device powers on or resets, a loading animation is displayed on the LCD to indicate the system is initializing. 
+This provides visual feedback and improves user experience.
+
+```cpp
+void system_config(){
+  display(F("System Init"));
+  lcd.setCursor(0, 1);
+  lcd.print(F("Press 0 to skip"));
+
+  if (loading_animation(11, 0)) {
+    return; // Allows skipping with keypad
+  }
+  lcd.clear();
+
+  // RTC Initialization also includes animation
+  display(F("RTC Init"));
+  lcd.setCursor(0, 1);
+  lcd.print(F("Press 0 to skip"));
+  if (loading_animation(8, 0)) {
+    return;
+  }
+  lcd.clear();
 }
 ```
 
@@ -186,7 +211,7 @@ void loop() {
 
 ## 📝 Version History
 
-- v1.0 (10-25) 
+- v1.0 (10-2025) 
 ---
 
 This project demonstrates the ability to build production-level embedded systems, integrating multiple sensors, secure input methods, error handling, 
