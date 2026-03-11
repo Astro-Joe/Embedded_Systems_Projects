@@ -39,7 +39,7 @@ I2C and other inter-device communication.
 ### 5. **Data Logging**
 Data acquisition and storage systems.
 - [Data Logging System](./Data_Logging/Data_Logging_from_sensors/)
-- [Voltage Data Logging](./Data_logging/voltage_data_logging/)
+- [Voltage Data Logging](./Data_Logging/voltage_data_logging/)
 
 ### 6. **Capstone Project**
 Final integrated project combining multiple concepts.
