@@ -16,30 +16,30 @@ This portfolio showcases hands-on experience with:
 
 ### 1. **LED & Basic I/O**
 Fundamental GPIO and LED control projects.
-- [LED Blinking](./projects/01-LED-Basics/redLed_blink_greenLed/)
-- [Hello World](./projects/01-LED-Basics/Hello_world/)
+- [LED Blinking](./LED_and_Basic_I-O/)
+- [Hello World](./LED_and_Basic_I-O/)
 
 ### 2. **Sensor Applications**
 Distance sensing and environmental monitoring.
-- [IR Sensor Distance Measurement](./projects/02-Sensor-Applications/IR_sensor_distance/)
-- [Ultrasonic Distance Measurement](./projects/02-Sensor-Applications/Ultrasonic_distance/)
-- [Temperature & Humidity Monitoring](./projects/02-Sensor-Applications/temp_humidity_sensor/)
+- [IR Sensor Distance Measurement](./Sensor_Applications/IR_sensor_-_distance/)
+- [Ultrasonic Distance Measurement](./Sensor_Applications/Ultrasonic_-_distance/)
+- [Temperature & Humidity Monitoring](./Sensor_Applications/temp_humidity_sensor/)
 
 ### 3. **Display Systems**
 Seven-segment and LCD display implementations.
-- [Seven-Segment Display Basics](./projects/03-Display-Systems/seven_seg_display_basics/)
-- [LCD Hello World](./projects/03-Display-Systems/LCD_Hello/)
-- [Seven-Segment Calculator](./projects/03-Display-Systems/Calculator_Seven_segment/)
-- [LCD Calculator](./projects/03-Display-Systems/LCD_Calculator/)
+- [Seven-Segment Display Basics](./Display_Systems/seven_seg_display__basics/)
+- [LCD Hello World](./Display_Systems/LCD_Hello/)
+- [Seven-Segment Calculator](./Display_Systems/Calculator_Seven_segment/)
+- [LCD Calculator](./Display_Systems/LCD_Calculator/)
 
 ### 4. **Communication Protocols**
 I2C and other inter-device communication.
-- [I2C Transmission Code](./projects/04-Communication-Protocols/I2CtransimissionCode/)
+- [I2C Transmission Code](./Communication_Protocols/I2CtransimissionCode/)
 
 ### 5. **Data Logging**
 Data acquisition and storage systems.
-- [Data Logging System](./projects/05-Data-Logging/Data_Logging/)
-- [Voltage Data Logging](./projects/05-Data-Logging/voltage_data_logging/)
+- [Data Logging System](./Display_Systems/Data_Logging_from_sensors/)
+- [Voltage Data Logging](./Display_Systems/voltage_data_logging/)
 
 ### 6. **Capstone Project**
 Final integrated project combining multiple concepts.
