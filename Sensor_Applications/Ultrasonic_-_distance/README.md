@@ -21,8 +21,10 @@ This project uses the HC-SR04 ultrasonic distance sensor to measure distance to 
 |-----------|------------|----------|---------|
 | Microcontroller | Arduino UNO | 1 | Main processor |
 | Ultrasonic Sensor | HC-SR04 | 1 | Distance measurement |
+| LCD Display | 16x2 Character LCD | 1 | Visual output |
+| Potentiometer | 10kΩ | 1 | LCD contrast adjustment |
+| Resistor | 220Ω | 1 | Current limiting (optional for backlight) |
 | Breadboard | Standard | 1 | Prototyping |
-| Jumper Wires | Various | 4 | Connections |
 | USB Cable | USB A-B | 1 | Power & communication |
 
 ## 🔌 Circuit Design
@@ -33,6 +35,24 @@ VCC  -------- Arduino 5V
 GND  -------- Arduino GND
 TRIG -------- Arduino Pin 8  (Trigger pulse)
 ECHO -------- Arduino Pin 9  (Echo pulse)
+```
+### 16x2 LCD Display Pin Configuration
+```
+LCD Pin    Arduino Pin    Purpose
+---        -----------    -------
+1 (GND)    GND            Ground
+2 (VCC)    5V             Power supply
+3 (V0)     10kΩ Pot       Contrast control
+4 (RS)     Pin 7          Register Select
+5 (RW)     GND            Read/Write (write mode)
+6 (E)      Pin 6          Enable
+7-10       Not used       Data bits D0-D3 (not in 4-bit mode)
+11 (D4)    Pin 5          Data bit 4
+12 (D5)    Pin 4          Data bit 5
+13 (D6)    Pin 3          Data bit 6
+14 (D7)    Pin 2          Data bit 7
+15 (A)     5V (via 220Ω)  Backlight anode
+16 (K)     GND            Backlight cathode
 ```
 
 ## 📝 Key Code Functions
