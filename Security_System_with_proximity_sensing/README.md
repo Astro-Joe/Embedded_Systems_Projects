@@ -35,9 +35,22 @@ When a user approaches within a specified distance, the system activates, prompt
 | Breadboard            | Standard               | 1        | Prototyping                      |
 | USB Cable             | USB A-B                | 1        | Power & upload                   |
 
-## 🔌 Circuit Design
+## 🔌 Schematic
 
------------------------------------------------------------------------------------------------
+<div align="center">
+  <img src="./.assets/Screenshot%20From%202026-03-11%2019-29-55.png" alt="Security System with proximity sensing Simulation" width="500">
+  <p><i>Wokwi Simulation of the Security System with proximity sensing Simulation</i></p>
+</div>
+
+### Wokwi Simulation
+*[https://wokwi.com/projects/445302505931600897]*
+
+### Physical Implementation
+
+<div align="center">
+  <img src="./.assets/Wed%2011%20Mar%202026%2019%3A46%3A15%20WAT.png" alt="Security System with Proximity Sensing" width="500">
+  <p><i>Security System with Proximity Sensing</i></p>
+</div>
 
 ### Major Pin Assignments
 
@@ -62,11 +75,6 @@ When a user approaches within a specified distance, the system activates, prompt
   - Cathode: A5
   - Anode: +VCC
 
-### Schematic
-*Add actual diagram as `circuit_diagram.png`*
-
-### Wokwi Simulation
-*[Add actual simulation link here]*
 
 ## 📝 Code Features & Flow
 
@@ -160,14 +168,14 @@ void system_config(){
 }
 ```
 
-## 🧪 Expected Behavior
+## Expected Behavior
 
 - **User approaches system (within 6–45cm):** LCD powers on, menu displayed
 - **Selects "New Password" or "Login":** Keypad used for input; feedback on LCD
 - **RTC module checks:** Status LED turns ON if RTC present; OFF if not
 - **Invalid actions:** LCD shows error messages and prompts for retry
 
-## 🧪 Testing & Results
+## Testing & Results
 
 - LCD responds to proximity sensor
 - Keypad allows PIN creation & login
@@ -175,7 +183,7 @@ void system_config(){
 - Menu and feedback system works; responds to user actions
 - Robust error handling (RTC not connected, wrong PIN, etc.)
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 | Problem                   | Solution                           |
 |---------------------------|------------------------------------|
@@ -192,14 +200,14 @@ void system_config(){
 - Expand menu for admin/user roles
 - Integrate wireless (Bluetooth/WiFi) for remote notifications
 
-## 📖 References
+## References
 
 - [HC-SR04 Datasheet](https://cdn.sparkfun.com/datasheets/Sensors/Ultrasonic/HCSR04.pdf)
 - [Keypad Library Reference](https://playground.arduino.cc/Code/Keypad/)
 - [RTClib Reference](https://github.com/adafruit/RTClib)
 - [LiquidCrystal Library](https://www.arduino.cc/en/Reference/LiquidCrystal)
 
-## 📋 Project Specifications
+## Project Specifications
 
 | Specification        | Value       |
 |----------------------|------------|
@@ -211,7 +219,7 @@ void system_config(){
 
 ## 📝 Version History
 
-- v1.0 (10-2025) 
+- v1.0 (29-10-2025) 
 ---
 
 This project demonstrates the ability to build production-level embedded systems, integrating multiple sensors, secure input methods, error handling, 
