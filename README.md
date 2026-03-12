@@ -68,15 +68,6 @@ All projects include circuit simulations available on Wokwi:
 
 *[Individual links per project in their respective README files]*
 
-## 📄 Project Documentation
-
-Each project folder contains:
-- **README.md** - Project overview, objectives, and results
-- **Source Code** - Well-commented C++ implementation
-- **Circuit Diagram** - Schematic and component list
-- **Simulation Link** - Wokwi simulation (where applicable)
-- **Testing Results** - Photos/videos of working hardware
-
 ## 🚀 Getting Started
 
 Each project is self-contained with its own README. To explore:
