@@ -43,7 +43,7 @@ Data acquisition and storage systems.
 
 ### 6. **Capstone Project**
 Final integrated project combining multiple concepts.
-- [Security_System_with_proximity_sensing](./Security_System_with_proximity_sensing/)
+- [Access_Control_System_with_Proximity_Sensing](./Access_Control_System_with_proximity_sensing/)
 
 ## 🛠️ Technologies & Tools
 
