@@ -74,4 +74,4 @@ Each project is self-contained with its own README. To explore:
 
 ```bash
 git clone https://github.com/Astro-Joe/Embedded_Systems_Projects.git
-cd Embedded_Systems_Projects/projects/[project-name]
+cd Embedded_Systems_Projects
