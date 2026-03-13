@@ -1,0 +1,60 @@
+*** Components used 
+	* Arduino Uno #20000
+	* HC-SR04 #2800
+	* Keypad #1300
+	* LCD display #3800
+	* DS3231 #4000
+	* Potentiometer  #2000
+	* SD card module #1300
+	* SD card 4gb #5000
+	* RF-ID module kit #2800
+	* Resistors #200
+	* Breadboard #2200
+	* LIPO rechargeable battery #2000
+	* USB C charging module #2000
+	* LEDs #200
+	* Buzzer #1200
+	* Jumper wires #3600
+	* Soldering lead #3800
+	* Veroboard #2000
+TOTAL = #58,200
+
+*** Hardware Section
+	* Circuit design 
+	* PCB design 
+	* Etching of PCB
+	* Assembly of components 
+	* Troubleshooting 
+	* Soldering 
+	* Packaging and boxing of final product 
+Total = #30,000
+
+*** Microcontroller Programming Section 
+	* Circuit Design Simulations 
+	* Component intialization and authentication
+	* Configuring of components (SD card module, RTC module, LCD module)
+	* Warning for component failure 
+	* UI/UX (User Interaction and User Experience)
+		-Loading animation.
+		-Login and Password creation page (Each page having subsections and 
+		subpages).
+		-Conditions of password creation.
+		-Handling errors and exceptions in password creation.
+		-Abstraction for inputted passwords for privacy and security.
+		-Data logging in storage with timestamps. 
+		-Authentication of password when inputted.
+		-Configuring buttons on the keypad and the corresponding actions in the 
+		 system. 
+		-General System design(Battery charging, battery percentage, date, 
+		 specific time etc).
+		-Configuring the specific range for the ultrasonic sensor and its effect
+		 on the behaviour of the LCD.
+		-Configuring specific data pages based on which user in currently 
+		 logged in (for this case data from a humidity and temperature sensor 
+		 which is also logged with timestamps).
+		-Configuring of RF-ID scanner and RF-ID card 
+		----Really can list them all----
+	TOTAL = #40,000
+	
+
+*** TOTAL FOR THE WHOLE PROJECT = #128,200
