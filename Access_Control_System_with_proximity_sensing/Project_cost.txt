@@ -2,7 +2,7 @@
 	* Arduino Uno #20000
 	* HC-SR04 #2800
 	* Keypad #1300
-	* LCD display #3800
+	* 1604 LCD display #9600
 	* DS3231 #4000
 	* Potentiometer  #2000
 	* SD card module #1300
